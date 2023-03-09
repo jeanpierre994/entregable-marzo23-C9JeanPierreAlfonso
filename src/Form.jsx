@@ -36,7 +36,7 @@ export const Form = ({onSubmit}) => {
         <Fragment>
             <form>
                 <h2 style={{color:"black"}}>Listado de Tema favotito</h2>
-                <TextField id="outlined-basic" label="Nombre" variant="outlined" value={name} onChange={handleChangeName} size={"medium"} />
+                <TextField id="outlined-basic" label="Su Nombre" variant="outlined" value={name} onChange={handleChangeName} size={"medium"} />
                 <br />
                 <br />
                 <TextField id="outlined-basic" label="Cancion Favorita Nombre" variant="outlined" value={favoriteSong} onChange={handleChangeFavoriteSong}/>
